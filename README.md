@@ -6,5 +6,5 @@
 
 
 
-###### This repository is for any programs that are created during this course CSCI 1111- Object Oriented Programming I at Southwest Tech.
+###### This repository is for any programs that are created during this course CSCI 1111 - Object Oriented Programming I at Southwest Tech.
 
