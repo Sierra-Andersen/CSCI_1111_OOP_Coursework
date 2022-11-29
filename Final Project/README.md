@@ -44,5 +44,47 @@ true/false (Is the food meat?)
 ## Code Example
 This code reads in the information about the recipe and then the individual ingredients from a file.
 ```
-(Code Sample.jpg)
+Scanner fileIn1 = new Scanner(f1);
+
+		while(fileIn1.hasNext()) {
+			fileIn1.useDelimiter("\\p{javaWhitespace}+");
+
+			String rName = fileIn1.nextLine();
+			String ethnicity = fileIn1.nextLine();
+			int cookTime = fileIn1.nextInt();
+			boolean hot = fileIn1.nextBoolean();
+
+			fileIn1.useDelimiter("\\s*Ingredients\\s*");
+			String ingredients = fileIn1.next();
+
+			Scanner string1 = new Scanner(ingredients);
+			ArrayList<Ingredient> ingredientList = new ArrayList<Ingredient>();
+
+			while(string1.hasNext()) {
+				String iName = string1.nextLine();
+				String type = string1.next();
+				boolean meat = string1.nextBoolean();
+
+				try{
+					string1.nextLine();
+				}
+				catch(Exception ex) {
+				}
+
+				Ingredient i1 = new Ingredient(iName, type, meat);
+				ingredientList.add(i1);
+			}
+
+			Recipe r = new Recipe(rName, cookTime, ingredientList, ethnicity, hot);
+			menu.add(r);
+			string1.close();
+
+			try{
+				String s1 = fileIn1.nextLine();
+				String s2 = fileIn1.nextLine();
+			}
+			catch(Exception ex) {
+			}
+		}
+		fileIn1.close();
 ```
