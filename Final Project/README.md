@@ -12,12 +12,19 @@ The test.txt file in this folder is a sample of recipes.
 Below are some pictures of the program running and how it works.
 
 <img src = "Main Menu.jpg">
-*This the start page of the program. Type a number 1-6 to select an option.*
+<em>This the start page of the program. Type a number 1-6 to select an option.</em>
 
-
+<br>
+<br>
+<br>
 
 <img src = "Option 1.jpg">
-*1. Upload a recipe. Make sure the file is in the same folder as the code!*
+<em>1. Upload a recipe: Make sure the file is in the same folder as the code!</em>
+
+<br>
+<br>
+<br>
+
 
 Any text files with typed recipes must be typed in this format:
 1st Recipe Name
@@ -36,19 +43,39 @@ true/false (Is the food meat?)
 \*Note it is easier to use the program to add recipes and then save the recipe list.
 
 <img src = "Option 2.jpg">
-*2. Add a new recipe. This will add a recipe to the current running program. To add a recipe to your text list, select option 3 and save the recipe list.*
+<em>2. Add a new recipe: This will add a recipe to the current running program. To add a recipe to your text list, select option 3 and save the recipe list.</em>
+
+<br>
+<br>
+<br>
 
 <img src = "Option 3.jpg">
-*3. Save a recipe list. Type the same file name as the upload file to write over the uploaded file. Type a new name to save a different recipe list.*
+<em>3. Save a recipe list: Type the same file name as the upload file to write over the uploaded file. Type a new name to save a different recipe list.</em>
+
+<br>
+<br>
+<br>
 
 <img src = "Option 4 Main.jpg">
-*4. Select a random recipe (no filter) This will select a random recipe with the option to add it to the weekly menu.*
+<em>4. Select a random recipe: (no filter) This will select a random recipe with the option to add it to the weekly menu.</em>
+
+<br>
+<br>
+<br>
 
 <img src = "Option 4 Filters.jpg">
-*4. Select a random recipe (filters) There are 6 filter options. Multiple filters may be used at once, but be careful to not remove all of the recipes.*
+<em>4. Select a random recipe: (filters) There are 6 filter options. Multiple filters may be used at once, but be careful to not remove all of the recipes.</em>
+
+<br>
+<br>
+<br>
 
 <img src = "Option 5.jpg">
-*5. Print a menu This will display a menu for the week based on the choices made in the "Select a random recipe" menu item.*
+<em>5. Print a menu: This will display a menu for the week based on the choices made in the "Select a random recipe" menu item.</em>
+
+<br>
+<br>
+<br>
 
 ## Code Example
 This code reads in the information about the recipe and then the individual ingredients from a file.
